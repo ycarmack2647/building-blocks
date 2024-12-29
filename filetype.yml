@@ -12,4 +12,5 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: Say Goodbye
-              run: echo "Goodbye, World!"
+              run: echo "Goodbye, World!" 
+  # The above example defines two jobs,  echo-hello  and  echo-goodbye , each of which runs on an  ubuntu-latest  runner. The  echo-hello  job has a single step that echoes "Hello, World!" to the console, and the  echo-goodbye  job has a single step that echoes "Goodbye, World!" to the console.
